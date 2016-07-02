@@ -19,3 +19,5 @@ SOURCES += main.cpp \
 
 HEADERS += \
     I2CDBusAdaptor.hpp
+
+CONFIG   += c++11
