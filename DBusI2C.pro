@@ -14,4 +14,8 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    I2CDBusAdaptor.cpp
+
+HEADERS += \
+    I2CDBusAdaptor.hpp
