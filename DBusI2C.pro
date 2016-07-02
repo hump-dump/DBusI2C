@@ -4,8 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core
-
+QT       += core dbus
 QT       -= gui
 
 TARGET = DBusI2C
